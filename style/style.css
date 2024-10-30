@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Robo";
+    src: url("../fonte/Robot Crush.ttf") format("truetype"); 
+}
+
+
+:root{
+    --fundo:rgb(0, 0, 0);
+    --destacar:#BF4E58;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--fundo);
+    height: auto;
+    width: auto;
+}
+header{
+    text-align: justify;
+    padding: 10px;
+
+}
+header h1{
+    color:var(--destacar);
+    font-size: 19px;
+    font-weight: normal;
+    font-family: "Robo", sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+header nav a{
+    margin: 0px 10px;
+    text-align: justify;
+    text-decoration: none;
+    color: var(--destacar);
+    transition-duration:0.4s;
+    border-radius: 10px;
+}
+header nav a:hover{
+    background-color: #BF4E58;
+    color: black;
+}
+main {
+    color:white;
+    text-align: center;
+    margin: 30px;
+}
+main p{
+    margin: 40px;
+}
+span{
+    color: #BF4E58;
+}
